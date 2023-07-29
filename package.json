@@ -18,5 +18,14 @@
   "dependencies": {
     "next": "^13.4.12",
     "react": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plugboy/next-dynamic-no-ssr.git"
+  },
+  "files": [
+    "index.jsx",
+    "LICENSE",
+    "README.md"
+  ]
 }
