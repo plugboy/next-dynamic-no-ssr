@@ -16,6 +16,11 @@
     "noUnusedParameters": true,
     "moduleResolution": "Bundler",
     "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true

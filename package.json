@@ -7,7 +7,7 @@
   "types": "./dist/esm/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plugboy/next-no-ssr.git"
+    "url": "git+https://github.com/plugboy/next-dynamic-no-ssr.git"
   },
   "scripts": {
     "build": "tsc"
