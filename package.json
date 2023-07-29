@@ -1,7 +1,7 @@
 {
-  "name": "next-no-ssr",
+  "name": "next-dynamic-no-ssr",
   "version": "0.1.0",
-  "description": "A simple NoSSR wrapper component for your nextjs project. Wrap your component like this <NoSSR><YourComponent /><NoSSR/> to disable server-side rendering.",
+  "description": "A simple NoSSR wrapper component for your nextjs project. The wrapper uses dynamic import to disable server-side rendering of a component.",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",

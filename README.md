@@ -1,6 +1,18 @@
 # About
 
-This is a simple NoSSR wrapper component for your nextjs project.
+This is a simple NoSSR wrapper component for your nextjs project. The wrapper uses dynamic import to disable server-side rendering of a component.
+
+## Installation
+
+```bash
+npm install next-dynamic-no-ssr
+```
+
+or
+
+```bash
+pnpm add next-dynamic-no-ssr
+```
 
 ## Usage
 
