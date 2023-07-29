@@ -2,7 +2,12 @@
   "name": "next-dynamic-no-ssr",
   "version": "0.1.3",
   "description": "This is a simple NoSSR wrapper component for your nextjs project. The wrapper uses dynamic import to disable server-side rendering of a component.",
-  "main": "index.jsx",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "next",
     "nextjs",
@@ -16,15 +21,17 @@
   "author": "Center Law",
   "license": "MIT",
   "dependencies": {
+    "@types/react": "^18.2.17",
     "next": "^13.4.12",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "typescript": "^5.1.6"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plugboy/next-dynamic-no-ssr.git"
   },
   "files": [
-    "index.jsx",
+    "dist",
     "LICENSE",
     "README.md"
   ]
