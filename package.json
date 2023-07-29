@@ -1,0 +1,25 @@
+{
+  "name": "next-no-ssr",
+  "version": "1.0.0",
+  "description": "A simple NoSSR wrapper component for your nextjs project. Wrap your component like this <NoSSR><YourComponent /><NoSSR/> to disable server-side rendering.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "SSR",
+    "server-side",
+    "rendering",
+    "nextjs",
+    "next"
+  ],
+  "author": "Center Law",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^18.2.17",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  }
+}
